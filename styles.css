@@ -1,0 +1,86 @@
+:root{
+--green:hsl(75, 94%, 57%);
+--white: hsl(0, 0%, 100%);
+--grey-700: hsl(0, 0%, 20%);
+--grey-800: hsl(0, 0%, 12%);
+--grey-900: hsl(0, 0%, 8%);
+} 
+
+@font-face {
+    font-family: 'Inter';
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+h2{
+ color: var(--green);
+}
+
+body{
+    color: var(--white);
+    background-color: var(--grey-900);
+    font-size: 14px;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: var(--grey-800);
+    width: 90%;          /* عشان ما تلصق في أطراف الشاشة في الجوال */
+    max-width: 375px;    /* هذا العرض المثالي لهذا النوع من التصاميم */
+    padding: 40px;       /* مساحة داخلية مريحة */
+    border-radius: 12px; /* زوايا منحنية كما في الصورة */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.social-links{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px; /* مسافة فوق الروابط الاجتماعية */
+    flex-direction: column;
+    width: 100%;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    
+    background-color: var(--grey-700);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--white);
+    width: 100%;
+    transition: 
+        background-color 0.3s ease, 
+        color 0.3s ease, 
+        transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.links:hover{
+    background-color: var(--green);
+    
+}
+
+
+
