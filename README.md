@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Zakialkhalaf16/social-links-profile](https://github.com/Zakialkhalaf16/social-links-profile)
-- Live Site URL: [Add your live site URL here]
+- Solution URL: [https://github.com/ZakiAlkhaf16/social-links-profile]
+- Live Site URL: [https://zakialkhaf16.github.io/social-links-profile/]
 
 ## My process
 
